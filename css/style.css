@@ -1,5 +1,14 @@
 * {box-sizing: border-box;}
 
-.h1-heading {
-    color: pink;
+/* :root{} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* home.html */
+#headerSection {
+    background-color: greenyellow;
 }

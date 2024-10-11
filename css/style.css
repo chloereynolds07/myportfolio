@@ -1,14 +1,55 @@
 * {box-sizing: border-box;}
 
-/* :root{} */
+:root{
+    --font1: 'Rosarivo', sans-serif;
+    --font2: "Cormorant Infant", sans-serif;
+    --bgcolor: #faf6f6;
+
+}
 
 
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--bgcolor);
 }
 
 /* home.html */
-#headerSection {
-    background-color: greenyellow;
+
+/* header section */
+
+.heading-hs1 {
+    font-family: var(--font1);
+}
+
+.nav-text {
+    margin: 0 15px;
+    font-family: var(--font2);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* main section */
+
+.image-port {
+    border: 3px solid;
+}
+
+.main-introduction-box {
+    padding: 20px 0px;
+}
+
+.ms1-text {
+    font-size: 1.2rem;
+}
+
+
+/* footer section *
+
+
+
+/* projects section */
+.border-color {
+    border: 1px solid pink;
+    box-shadow: 0 0 5px #aaa;
 }

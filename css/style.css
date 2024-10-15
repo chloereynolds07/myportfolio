@@ -31,6 +31,10 @@ body {
 
 /* main section */
 
+#mainSection1 {
+    padding: 85px 0;
+}
+
 .image-port {
     border: 3px solid;
 }
@@ -44,12 +48,25 @@ body {
 }
 
 
-/* footer section *
+/* footer section */
 
+.footer {
+    background-color: bisque;
+}
+
+.footer-header {
+    font-size: 2rem;
+}
+
+.social-subheading {
+    font-size: 1.2rem;
+    margin: -20px 0 20px 0;
+    
+}
 
 
 /* projects section */
 .border-color {
     border: 1px solid pink;
-    box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 2px #aaa;
 }

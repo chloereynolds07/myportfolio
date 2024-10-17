@@ -3,8 +3,13 @@
 :root{
     --font1: 'Gabriela', sans-serif;
     --font2: "Mali", sans-serif;
-    --bgcolor: #ece0da;
-    --border-color: linear-gradient(to bottom right, #f8f3ea, #fa9ebc);
+    --navy: #2f4156;
+    --teal: #658fa3;
+    --beige: #f5efeb;
+    --skyblue: #cbd9e6;
+    --white: #fff;
+    --black: #000;
+    --pink: 
 }
 
 
@@ -16,12 +21,23 @@ body {
 /* home.html */
 
 /* header section */
+
+#header {
+    background-color: var(--navy);
+}
+
 .heading-hs1 {
     font-family: var(--font1);
+    color: var(--beige);
 }
 
 .introduction-header {
     font-family: var(--font1);
+    color: var(--navy);
+}
+
+.intro-text {
+    color: var(--navy);
 }
 
 .subheading-intro {
@@ -29,27 +45,36 @@ body {
 }
 
 .nav-text {
-    color: #9cad8c;
+    color: var(--beige);
     margin: 0 15px;
     font-family: var(--font2);
-    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .nav-text:hover {
-    color: #7e8c69;
+    color: var(--white);
     transition-duration: 0.5s;
+}
+
+.link-color {
+    color: var(--navy);
+    font-family: var(--font2);
+}
+
+.link-color:hover {
+    color: var(--skyblue);
+    transition-duration: 0.3s;
 }
 
 /* main section */
 
 #mainSection1 {
     padding: 85px 0;
+    background-color: var(--beige);
 }
 
 .image-border {
-    border: 4px solid;
-    border-image: var(--border-color) 1;
+    border: 4px solid var(--teal);
 }
 
 .main-introduction-box {
@@ -63,17 +88,32 @@ body {
 /* footer section */
 
 #footerSection {
-    background-color: bisque;
+    background-color: var(--navy);
 }
 
-.footer-header {
+.contact-header {
     font-size: 2rem;
+    color: var(--beige);
 }
 
 .social-subheading {
     font-size: 1.3rem;
     margin: -20px 0 20px 0;
     border-bottom: 1px solid;
+    color: var(--beige);
+}
+
+.icon-socials {
+    font-size: 1.1rem;
+    color: var(--white);
+}
+
+.social-item {
+    color: var(--white);
+}
+
+.social-item:hover {
+    color: var(--white);
 }
 
 /* about section */

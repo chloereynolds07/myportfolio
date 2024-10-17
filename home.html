@@ -17,10 +17,10 @@
         <section class="section" id="headerSection">
             <div class="container-fluid">
             <!-- mobile navbar -->
-            <nav class="navbar nav-bg d-lg-none">
+            <nav class="navbar navbar-expand-sm d-lg-none">
                     <a href="home.html" class="navbar-brand heading-hs1 text-capitalize">chloe reynolds</a>
-                    <button 
-                    class="navbar-toggler" 
+                    <button
+                    class="navbar-toggler button-icon" 
                     type="button" 
                     data-bs-toggle="collapse" 
                     data-bs-target="#navbarToggleID" 
@@ -48,7 +48,7 @@
                         <!-- laptop and larger devices display -->
                             <div class="col-lg-5 d-none d-lg-flex">
                                 <a href="home.html" class="text-decoration-none">
-                                    <h1 class="heading-hs1 pt-3">chloe reynolds</h1>
+                                    <h1 class="heading-hs1 pt-3  text-capitalize">chloe reynolds</h1>
                                 </a>
                             </div>
                             <div class="col-lg-7">
@@ -76,10 +76,13 @@
                     <div class="col-md-6">
                         <div class="main-introduction-box px-5">
                             <h2 class="introduction-header">Hey, my name is Chloe!</h2>
-                            <p class="subheading-intro text-capitalize text">junior developer</p>
+                            <p class="subheading-intro text-capitalize">junior developer</p>
                             <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis earum sunt fugiat nemo, praesentium voluptate, quos excepturi aperiam autem exercitationem asperiores temporibus quasi culpa eos iure, ex dolores dolore. Reprehenderit dicta nostrum error minus iusto eveniet earum cumque ipsam?</p>
                             <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis earum sunt fugiat nemo, praesentium voluptate, quos excepturi aperiam autem exercitationem asperiores temporibus quasi culpa eos iure, ex dolores dolore. Reprehenderit dicta nostrum error minus iusto eveniet earum cumque ipsam?</p>
-                            <a href="#about.html" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Let's get started!</a>
+                            <a class="icon-link icon-link-hover link-color text-decoration-none" href="about.html">
+                                Let's go!<i class="bi bi-hearts"></i>
+                                <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -90,46 +93,46 @@
     <footer class="footer" id="footerSection">
         <section class="section pb-2" id="footerSection">
             <div class="container">
-                    <p class="footer-header text-center text-md-start p-2">Contact me!</p>
+                    <p class="contact-header text-center text-md-start p-2">Contact me!</p>
                     <p class="social-subheading text-center text-md-start">My socials</p>
                     <div class="socials-box">
-                        <ul class="socials list-unstyled text-center text-md-start">
+                        <ul class="socials list-unstyled text-center text-md-start text-light">
                             <li class="social-list">
-                                <i class="bi bi-envelope-open-heart"></i>
+                                <i class="bi bi-envelope-at icon-socials"></i>
                                 <span class="visually-hidden">email</span>
                                 chloreynolds07@gmail.com
                             </li>
-                            <li class="social-list">
-                                <i class="bi bi-phone"></i>
+                            <li class="social-list ">
+                                <i class="bi bi-phone icon-socials"></i>
                                 <span class="visually-hidden">phone number</span>
                                 (769)-226-4550
                             </li>
                             <li class="social-list">
-                                <i class="bi bi-geo-alt"></i>
+                                <i class="bi bi-geo-alt icon-socials"></i>
                                 <span class="visually-hidden">location</span>
                                 Ridgeland, Mississippi
                             </li>
                         </ul>
                     </div>
                     <nav class="nav justify-content-center justify-content-md-start">
-                        <a href="#" class="nav-link">
+                        <a href="https://x.com/chloreynolds07" class="nav-link twitter-link social-item" target="_blank">
                             <i class="bi bi-twitter"></i>
                             <span class="visually-hidden">twitter</span>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="https://www.linkedin.com/in/chloe-reynolds-a33817331" class="nav-link linkedin-link social-item" target="_blank">
                             <i class="bi bi-linkedin"></i>
                             <span class="visually-hidden">linkedin</span>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="https://github.com/chloereynolds07" class="nav-link github-link social-item" target="_blank">
                             <i class="bi bi-github"></i>
                             <span class="visually-hidden">github</span>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="https://discordapp.com/users/1296514521694867478" class="nav-link discord-link social-item" target="_blank">
                             <i class="bi bi-discord"></i>
                             <span class="visually-hidden">discord</span>
                         </a>
                     </nav>
-                <p class="colophon text-center text-md-end">site by Chloe Reynolds &copy; 2024 Privacy Policy</p>
+                <p class="colophon text-center text-md-end text-light">site by Chloe Reynolds &copy; 2024 Privacy Policy</p>
             </div>
         </section>
     </footer> 

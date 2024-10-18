@@ -121,6 +121,15 @@ body {
     border-bottom: 2px solid var(--navy2);
 }
 
+.email, .phone-number {
+    color: var(--beige);
+}
+
+.email:hover, .phone-number:hover {
+    color: var(--skyblue);
+    transition-duration: 0.3s;
+}
+
 /* social section */
 
 .icon-socials {
@@ -154,6 +163,7 @@ body {
 
 .about-box {
     background-color: var(--beige);
+    width: 30%;
     padding: 20px;
 }
 
@@ -162,4 +172,9 @@ body {
 
 #projectSection {
     padding: 30px 0px;
+}
+
+.card-background {
+    background-color: var(--beige);
+    background-image: var(--strip);
 }

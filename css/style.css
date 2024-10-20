@@ -1,8 +1,8 @@
 * {box-sizing: border-box;}
 
 :root{
-    --header: "Londrina Outline", sans-serif;
-    --font1: "Kurale", sans-serif;
+    --header: "Delius Unicase", sans-serif;
+    --font1: "Delius", sans-serif;
     --font2: "Mali", sans-serif;
     --navy: #2f4156;
     --navy2: #222F3E;
@@ -14,11 +14,18 @@
     --black: #000;
     --strip: repeating-linear-gradient(
         to right,
-        #2f4156,
-        #2f4156 40px,
-        #222F3E 40px,
-        #222F3E 80px
+        #2f1f3c,
+        #2f1f3c 40px,
+        #4f3466 40px,
+        #4f3466 80px
     );
+/* fairy rosette */
+--darkestpurple: #2f1f3c;
+--darkpurple: #4f3466;
+--lightpurple: #947cac;
+--warmpurple: #a580a6;
+--palepurple: #F1E2FF;
+--coolgray: #d2c9d4;
 }
 
 
@@ -31,21 +38,21 @@ body {
 /* header section */
 
 #header {
-    background-color: var(--navy);
+    background-color: var(--darkpurple);
 }
 
 .heading-hs1 {
-    font-family: var(--font1);
+    font-family: var(--header);
     color: var(--beige);
 }
 
-.introduction-header {
+.introduction-header, .aboutme-header {
     font-family: var(--font1);
-    color: var(--navy2);
+    color: var(--darkestpurple);
 }
 
 .intro-text {
-    color: var(--navy);
+    color: var(--darkestpurple);
 }
 
 .subheading-intro {
@@ -61,19 +68,19 @@ body {
 }
 
 .nav-text:hover {
-    color: var(--beige2);
+    color: var(--palepurple);
     transition-duration: 0.5s;
 }
 
 /* link */
 
 .link-color {
-    color: var(--navy);
+    color: var(--darkpurple);
     font-family: var(--font2);
 }
 
 .link-color:hover {
-    color: var(--navy2);
+    color: var(--warmpurple);
     transition-duration: 0.3s;
 }
 
@@ -85,7 +92,7 @@ body {
 }
 
 .image-border {
-    border: 4px solid var(--navy2);
+    border: 4px solid var(--darkpurple);
 }
 
 .main-introduction-box {
@@ -99,11 +106,11 @@ body {
 /* footer section */
 
 #footerSection {
-    background-color: var(--navy);
+    background-color: var(--darkpurple);
 }
 
 #footerSection2 {
-    background-color: var(--navy2);
+    background-color: var(--darkestpurple);
 }
 
 /* footer heading and subheading */
@@ -118,7 +125,7 @@ body {
     font-size: 1.3rem;
     margin: -20px 0 20px 0;
     color: var(--beige);
-    border-bottom: 2px solid var(--navy2);
+    border-bottom: 2px solid var(--darkestpurple);
 }
 
 .email, .phone-number {
@@ -126,7 +133,7 @@ body {
 }
 
 .email:hover, .phone-number:hover {
-    color: var(--skyblue);
+    color: var(--coolgray);
     transition-duration: 0.3s;
 }
 
@@ -146,7 +153,7 @@ body {
 }
 
 .social-item:hover {
-    color: var(--skyblue);
+    color: var(--palepurple);
 }
 
 .colophon-text {
@@ -158,13 +165,17 @@ body {
 #aboutMe {
     padding: 20px 0;
     background-color: var(--beige);
-    background-image: var(--strip);
+    /* background-image: var(--strip); */
+}
+
+.image-border-aboutme {
+    border: 4px solid var(--darkpurple)
 }
 
 .about-box {
-    background-color: var(--beige);
-    width: 70%;
-    padding: 20px;
+    background-image: var(--strip);
+    /* width: 70%; */
+    padding: 20px; 
 }
 
 

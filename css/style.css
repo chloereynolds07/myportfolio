@@ -4,28 +4,18 @@
     --header: "Delius Unicase", sans-serif;
     --font1: "Delius", sans-serif;
     --font2: "Mali", sans-serif;
-    --navy: #2f4156;
-    --navy2: #222F3E;
-    --teal: #658fa3;
     --beige: #f5efeb;
     --beige2: #e7e0db;
     --skyblue: #cbd9e6;
     --white: #fff;
     --black: #000;
-    --strip: repeating-linear-gradient(
-        to right,
-        #2f1f3c,
-        #2f1f3c 40px,
-        #4f3466 40px,
-        #4f3466 80px
-    );
-/* fairy rosette */
---darkestpurple: #2f1f3c;
---darkpurple: #4f3466;
---lightpurple: #947cac;
---warmpurple: #a580a6;
---palepurple: #F1E2FF;
---coolgray: #d2c9d4;
+        /* fairy rosette */
+        --darkestpurple: #2f1f3c;
+        --darkpurple: #4f3466;
+        --lightpurple: #947cac;
+        --warmpurple: #a580a6;
+        --palepurple: #F1E2FF;
+        --coolgray: #d2c9d4;
 }
 
 
@@ -84,11 +74,12 @@ body {
     transition-duration: 0.3s;
 }
 
-/* main section */
+/* home section */
 
-#mainSection1 {
+#homeSection {
     padding: 85px 0;
     background-color: var(--beige);
+    border-top: 8px solid var(--darkestpurple);
 }
 
 .image-border {
@@ -165,6 +156,7 @@ body {
 #aboutSection {
     padding: 20px 0;
     background-color: var(--darkestpurple);
+    border-top: 8px solid var(--lightpurple);
 }
 
 
@@ -189,9 +181,30 @@ body {
 #projectSection {
     padding: 30px 0px;
     background-color: var(--beige);
+    border-top: 8px solid var(--darkestpurple);
 }
 
-.card-background {
-    background-color: var(--beige);
-    background-image: var(--strip);
+.project-header {
+    font-family: var(--font1);
+}
+
+.card-header-color, .cardtext-color {
+    color: var(--beige);
+}
+
+.card-bodycolor {
+    background-color: var(--darkpurple);
+}
+
+.cardfooter-color {
+    background-color: var(--darkestpurple);
+}
+
+.cardlink-color {
+    color: var(--beige);
+}
+
+.cardlink-color:hover {
+    color:var(--palepurple);
+    transition-duration: 0.4s;
 }

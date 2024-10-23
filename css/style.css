@@ -160,9 +160,23 @@ body {
 }
 
 
-.about-header {
+.about-header, .about-list-header{
     font-family: var(--font1);
     /* font-size: 1.8rem; */
+    color: var(--beige);
+}
+
+.about-list-item {
+    color: var(--beige);
+    list-style: circle;
+}
+
+.about-text {
+    color: var(--beige);
+}
+
+.about-text-link {
+    color: var(--palepurple);
 }
 
 .aboutme-img {

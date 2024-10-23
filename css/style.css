@@ -6,8 +6,6 @@
     --font2: "Mali", sans-serif;
     --beige: #f5efeb;
     --beige2: #e7e0db;
-    --skyblue: #cbd9e6;
-    --white: #fff;
     --black: #000;
         /* fairy rosette */
         --darkestpurple: #2f1f3c;
@@ -36,18 +34,6 @@ body {
     color: var(--beige);
 }
 
-.introduction-header {
-    font-family: var(--font1);
-    color: var(--darkestpurple);
-}
-
-.intro-text {
-    color: var(--darkestpurple);
-}
-
-.subheading-intro {
-    font-family: var(--font2);
-}
 
 /* navs */
 
@@ -62,24 +48,13 @@ body {
     transition-duration: 0.5s;
 }
 
-/* link */
-
-.link-color {
-    color: var(--darkpurple);
-    font-family: var(--font2);
-}
-
-.link-color:hover {
-    color: var(--warmpurple);
-    transition-duration: 0.3s;
-}
 
 /* home section */
 
 #homeSection {
     padding: 85px 0;
-    background-color: var(--beige);
-    border-top: 8px solid var(--darkestpurple);
+    background-color: var(--darkestpurple);
+    border-top: 8px solid var(--lightpurple);
 }
 
 .image-border {
@@ -90,8 +65,30 @@ body {
     padding: 20px 0px;
 }
 
-.ms1-text {
-    font-size: 1.2rem;
+.introduction-header {
+    font-family: var(--font1);
+    color: var(--beige);
+}
+
+.intro-text {
+    color: var(--beige);
+}
+
+.subheading-intro {
+    font-family: var(--font2);
+    color: var(--beige);
+}
+
+/* link */
+
+.link-color {
+    color: var(--palepurple);
+    font-family: var(--font2);
+}
+
+.link-color:hover {
+    color: var(--lightpurple);
+    transition-duration: 0.3s;
 }
 
 /* footer section */
@@ -124,7 +121,7 @@ body {
 }
 
 .email:hover, .phone-number:hover {
-    color: var(--coolgray);
+    color: var(--palepurple);
     transition-duration: 0.3s;
 }
 
@@ -168,7 +165,6 @@ body {
 
 .about-list-item {
     color: var(--beige);
-    list-style: circle;
 }
 
 .about-text {
@@ -180,7 +176,7 @@ body {
 }
 
 .aboutme-img {
-    border: var(--beige);
+    border: 4px solid var(--palepurple);
 }
 
 .about-list-header {
@@ -194,12 +190,18 @@ body {
 
 #projectSection {
     padding: 30px 0px;
-    background-color: var(--beige);
-    border-top: 8px solid var(--darkestpurple);
+    background-color: var(--darkestpurple);
+    border-top: 8px solid var(--lightpurple);
 }
 
 .project-header {
     font-family: var(--font1);
+    color: var(--beige);
+}
+
+.project-subheader {
+    color: var(--beige2);
+    font-size: 1.3rem;
 }
 
 .card-header-color, .cardtext-color {

@@ -24,13 +24,10 @@
     );
 }
 
-
-
 body {
     margin: 0;
     padding: 0;
 }
-
 
 /* header section */
 
@@ -63,7 +60,7 @@ body {
 #homeSection {
     padding: 85px 0;
     background-color: var(--beige2);
-    border-top: 8px solid var(--lightpurple);
+    border-top: 8px solid var(--darkestpurple);
 }
 
 .image-border {
@@ -109,7 +106,6 @@ body {
     border-top: 8px solid var(--lightpurple);
 }
 
-
 .about-header, .about-list-header{
     font-family: var(--font1);
     /* font-size: 1.8rem; */
@@ -145,7 +141,7 @@ body {
 #projectSection {
     padding: 30px 0px;
     background-color: var(--beige);
-    border-top: 8px solid var(--lightpurple);
+    border-top: 8px solid var(--darkestpurple);
 }
 
 .project-header {

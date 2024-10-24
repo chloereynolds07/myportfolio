@@ -53,7 +53,7 @@ body {
 
 #homeSection {
     padding: 85px 0;
-    background-color: var(--darkestpurple);
+    background-color: var(--beige2);
     border-top: 8px solid var(--lightpurple);
 }
 
@@ -67,27 +67,27 @@ body {
 
 .introduction-header {
     font-family: var(--font1);
-    color: var(--beige);
+    color: var(--darkestpurple);
 }
 
 .intro-text {
-    color: var(--beige);
+    color: var(--darkestpurple);
 }
 
 .subheading-intro {
     font-family: var(--font2);
-    color: var(--beige);
+    color: var(--darkestpurple);
 }
 
 /* link */
 
 .link-color {
-    color: var(--palepurple);
+    color: var(--darkpurple);
     font-family: var(--font2);
 }
 
 .link-color:hover {
-    color: var(--lightpurple);
+    color: var(--darkestpurple);
     transition-duration: 0.3s;
 }
 

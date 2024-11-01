@@ -88,12 +88,13 @@ body {
 /* link */
 
 .link-color {
-    color: var(--darkpurple);
+    color: var(--warmpurple);
     font-family: var(--font2);
+    font-weight: 600;
 }
 
 .link-color:hover {
-    color: var(--darkestpurple);
+    color: var(--darkpurple);
     transition-duration: 0.3s;
 }
 
@@ -120,7 +121,12 @@ body {
 }
 
 .about-text-link {
+    color: var(--warmpurple);
+}
+
+.about-text-link:hover {
     color: var(--palepurple);
+    transition: 0.3s;
 }
 
 .aboutme-img {
